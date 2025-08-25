@@ -16,7 +16,7 @@ export default function Signup() {
   };
 
   return (
-    <div className="text-blackflex justify-center items-center h-screen bg-gray-100">
+    <div className="text-black flex justify-center items-center h-screen bg-gray-100">
       <form onSubmit={handleSubmit} className="bg-white p-6 rounded shadow-md w-80">
         <h2 className="text-xl font-bold mb-4">Signup</h2>
         <input type="email" placeholder="Email"
